@@ -15,7 +15,7 @@ jobs:
           java-version: 11
       - uses: actions/checkout@v3
         with: 
-          repository: https://github.com/UNICORE-EU/tsi.git
+          repository: UNICORE-EU/tsi
       - name: build
         run: make slurm-rpm
       - name: upload artifact
