@@ -17,7 +17,7 @@ jobs:
         with: 
           repository: UNICORE-EU/tsi
       - name: build
-        run: pwd; make slurm-rpm
+        run: pwd; find; make slurm-rpm
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
