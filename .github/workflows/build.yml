@@ -17,7 +17,7 @@ jobs:
         with: 
           repository: https://github.com/UNICORE-EU/tsi.git
       - name: build
-        run: cd tsi; make slurm-rpm
+        run: make slurm-rpm
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
