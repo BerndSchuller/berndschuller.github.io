@@ -14,7 +14,7 @@ jobs:
           with:
             java-version: 11
       - name: checkout
-        run: git clone https://https://github.com/UNICORE-EU/tsi.git
+        run: git clone https://github.com/UNICORE-EU/tsi.git
       - name: build
         run: cd tsi; make slurm-rpm
       - name: upload artifact
